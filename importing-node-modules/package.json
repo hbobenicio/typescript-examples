@@ -1,5 +1,5 @@
 {
-  "name": "typescript-examples",
+  "name": "importing-node-modules",
   "version": "0.0.1",
   "main": "./src/index.ts",
   "license": "MIT",
