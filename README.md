@@ -1,6 +1,6 @@
 # typescript-examples
 
-## Examples
+### Examples
 
 * [importing-node-modules](./importing-node-modules)
 

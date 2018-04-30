@@ -1,6 +1,6 @@
-# [typescript-examples](..) / importing-node-modules
+# importing-node-modules
 
-## Usando módulo do node com typescript
+### Usando módulo do node com typescript
 
 1. Adicionar a dependencia de desenvolvimento `@types/node`
     ```bash
