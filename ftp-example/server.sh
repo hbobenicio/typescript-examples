@@ -2,8 +2,14 @@
 
 rm -f foo
 sudo rm -fr /tmp/ftp
-sudo mkdir -p /tmp/ftp/myuser
-sudo sh -c 'echo "Hello, Ftp!" >> /tmp/ftp/myuser/foo'
+sudo mkdir -p /tmp/ftp/myuser/DIVAT/
+sudo sh -c 'echo "CONTEUDO PVT.ROOT" >> /tmp/ftp/myuser/PVT.ROOT'
+sudo sh -c 'echo "DVT.ABC LINHA 1" >> /tmp/ftp/myuser/DIVAT/DVT.ABC'
+sudo sh -c 'echo "DVT.ABC LINHA 2" >> /tmp/ftp/myuser/DIVAT/DVT.ABC'
+sudo sh -c 'echo "DVT.ABD LINHA 1" >> /tmp/ftp/myuser/DIVAT/DVT.ABD'
+sudo sh -c 'echo "DVT.ABD LINHA 2 áàâãüç,.;#$%&-_=+[]{}()" >> /tmp/ftp/myuser/DIVAT/DVT.ABD'
+sudo sh -c 'echo "DVT.BDE LINHA 1" >> /tmp/ftp/myuser/DIVAT/DVT.BDE'
+sudo sh -c 'echo "PVT.FOO LINHA 1" >> /tmp/ftp/myuser/DIVAT/PVT.FOO'
 
 docker run --rm \
   -v /tmp/ftp:/home/vsftpd \
